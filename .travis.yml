@@ -10,3 +10,5 @@ before_install:
 - gcc cfm-seriation.c -lm -lpthread -lrt -o cfm-seriation
 - wget https://raw.githubusercontent.com/amamory/seriation/master/data/Escherichia_coli.dat
 - ./cfm-seriation f=Escherichia_coli.dat
+
+install: true

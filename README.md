@@ -105,8 +105,15 @@ Usage: cfm-seriation [OPTION...]
    v                          Generate video
 </pre>
 
-type 'cfm-seriation f=/usr/share/cfm-seriation/data/Homo_sapiens.dat m=3000 P' to execute the seriation. This process can take about 12 minutes, depending on the CPU.
-In case you want a video of the process, type 'cfm-seriation f=/usr/share/cfm-seriation/data/Homo_sapiens.dat m=3000 P v' to execute the seriation. This will consume some extra time.
+type to execute the seriation. This process can take about 12 minutes, depending on the CPU.
+
+> ./cfm-seriation f=data/Homo_sapiens.dat m=3000 P
+
+In case you want a video of the process, type to execute the seriation. 
+
+> ./cfm-seriation f=/usr/share/cfm-seriation/data/Homo_sapiens.dat m=3000 P v
+
+This will consume some extra time.
 
 <pre>
 Usage: cfm-seriation [OPTION...]
@@ -132,6 +139,26 @@ INITIAL Energy: 4123514310
 Ordering...
 100% [====================================================================================================]
 </pre>
+
+For a quicker test you can execute smaller dataset, like the Escherichia Coli.
+
+> ./cfm-seriation f=Escherichia_coli.dat
+
+<pre>
+Reading file...
+	Proteins: 3598
+	Interactions: 13687
+Applying random order...
+Saving initial order...
+INITIAL Energy: 129449102
+Ordering...
+100% [====================================================================================================]
+FINAL Energy: 129025784
+Saving final order...
+Done!
+</pre>
+
+The results are save in a different directory for each execution. 
 
 ## Further Information
 

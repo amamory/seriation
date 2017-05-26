@@ -50,7 +50,7 @@ The next image represents the Homo sapiens network **'seriated'**.
 ![final](final.png)
 
 
-h2. Download and Compilation
+## Download and Compilation
 
 The Seriation Package is developed in C and tested on Ubuntu 14.04.
 * Download the package ("amd64":/redmine/attachments/download/360/cfm-seriation_1.0-1_amd64.deb) or ("i386":/redmine/attachments/download/361/cfm-seriation_1.0-1_i386.deb).
@@ -139,7 +139,8 @@ If you are using this package on your research, please cite our paper:
 * [Optimization and Analysis of Seriation Algorithm for Ordering Protein Networks](ieeexplore.ieee.org/document/7033586/)
 
 <pre>
-KUENTZER, Felipe A. et al. Optimization and analysis of seriation algorithm for ordering protein networks. In: Bioinformatics and Bioengineering (BIBE), 2014 IEEE International Conference on. IEEE, 2014. p. 231-237.
+KUENTZER, Felipe A. et al. Optimization and analysis of seriation algorithm for ordering protein networks. 
+In: IEEE International Conference on Bioinformatics and Bioengineering (BIBE), 2014. p. 231-237.
 </pre>
 
 ## Where Seriation is Used
@@ -149,4 +150,4 @@ If you are using the Seriation Package, please send an email to *alexandre.amory
 
 ## Similar Packages
 
-* (R Package seriation)[http://www.jstatsoft.org/v25/i03], available at http://cran.r-project.org/web/packages/seriation/index.html.
+* [R Package seriation](http://www.jstatsoft.org/v25/i03), available at http://cran.r-project.org/web/packages/seriation/index.html.

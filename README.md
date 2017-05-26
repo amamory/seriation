@@ -1,6 +1,8 @@
 # seriation
 This software is an efficient implementation of the [Seriation](http://www.jstatsoft.org/v25/i03) problem which 'finds a suitable linear order for a set of objects'. It has been used to order a network of proteins such that 'related' nodes are closer in the other.
 
+[![Build Status](https://travis-ci.org/amamory/seriation.svg?branch=master)](https://travis-ci.org/amamory/seriation)
+
 ## Authors
 
 The Seriation Package was developed by [Felipe Kuentzer](http://lattes.cnpq.br/1979213773480902), in collaboration with 

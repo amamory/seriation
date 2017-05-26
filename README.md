@@ -1,22 +1,16 @@
 # seriation
-This software is an efficient implementation of the "*Seriation*":http://www.jstatsoft.org/v25/i03 problem which 'finds a suitable linear order for a set of objects'. It has been used to order a network of proteins such that 'related' nodes are closer in the order.
+This software is an efficient implementation of the [Seriation](http://www.jstatsoft.org/v25/i03) problem which 'finds a suitable linear order for a set of objects'. It has been used to order a network of proteins such that 'related' nodes are closer in the other.
 
+## Authors
 
-h1. Seriation Package
+The Seriation Package was developed by [Felipe Kuentzer](http://lattes.cnpq.br/1979213773480902), in collaboration with 
+Douglas G. Ávila, Alexandre Pereira, Gabriel Perrone, Samoel da Silva, [Alexandre Amory](http://lattes.cnpq.br/2609000874577720), and [Rita de Almeida](http://lattes.cnpq.br/4672766298301524).
 
-h2. Introduction
+**Contact information**: Alexandre Amory (*alexandre.amory at pucrs.br*)
 
-h2. Authors
-
-The Seriation Package was developed by "Felipe Kuentzer":http://lattes.cnpq.br/1979213773480902, in collaboration with 
-Douglas G. Ávila, Alexandre Pereira, Gabriel Perrone, Samoel da Silva, "Alexandre Amory":http://lattes.cnpq.br/2609000874577720, and "Rita de Almeida":http://lattes.cnpq.br/4672766298301524.
-
-Contact information: Alexandre Amory (*alexandre.amory at pucrs.br*)
-
-h2. Inputs
+## Inputs
 
 The input file is a textual file describing an undirected network of nodes (in our examples the nodes are protein names). Example:
-
 <pre>
 L7007 L7008
 L7008 L7007
@@ -27,9 +21,9 @@ L7015 L7014
 L7017 Z1275
 </pre>
 
-In the tab Files you can find networks for different species such as ("Escherichia coli":/redmine/attachments/download/364/Escherichia_coli.dat), ("Mus musculus":/redmine/attachments/download/365/Mus_musculus.dat), ("Saccharomyces cerevisiae":/redmine/attachments/download/351/Saccharomyces_cerevisiae.dat), ("Homo_sapiens":/redmine/attachments/download/350/Homo_sapiens.dat), among others.
+In the tab Files you can find networks for different species such as [Escherichia coli](data/Escherichia_coli.dat), [Mus musculus](data/Mus_musculus.dat), [Saccharomyces cerevisiae](data/Saccharomyces_cerevisiae.dat), [Homo sapiens](data/Homo_sapiens.dat), among others.
 
-h2. Outputs
+## Outputs
 
 The output is a text file with the order of the network nodes. Example:
 
@@ -49,11 +43,11 @@ Z3106	8
 
 The following image represents the Homo sapiens network with a *random ordering*.
 
-p=. !initial.png!
+![initial](initial.png)
 
-The next image represents the Homo sapiens network *'seriated'*.
+The next image represents the Homo sapiens network **'seriated'**.
 
-p=. !final.png!
+![final](final.png)
 
 
 h2. Download and Compilation
@@ -77,9 +71,9 @@ The Seriation Package is developed in C and tested on Ubuntu 14.04.
 /usr/share/cfm-seriation/src/             Source code in C
 </pre>
 
-h2. How to Use
+## How to Use
 
-* type 'cfm-seriation' to show the options:
+type 'cfm-seriation' to show the options:
 
 <pre>
 cfm-seriation
@@ -99,8 +93,8 @@ Usage: cfm-seriation [OPTION...]
    v                          Generate video
 </pre>
 
-* type 'cfm-seriation f=/usr/share/cfm-seriation/data/Homo_sapiens.dat m=3000 P' to execute the seriation. This process can take about 12 minutes, depending on the CPU.
-* In case you want a video of the process, type 'cfm-seriation f=/usr/share/cfm-seriation/data/Homo_sapiens.dat m=3000 P v' to execute the seriation. This will consume some extra time.
+type 'cfm-seriation f=/usr/share/cfm-seriation/data/Homo_sapiens.dat m=3000 P' to execute the seriation. This process can take about 12 minutes, depending on the CPU.
+In case you want a video of the process, type 'cfm-seriation f=/usr/share/cfm-seriation/data/Homo_sapiens.dat m=3000 P v' to execute the seriation. This will consume some extra time.
 
 <pre>
 Usage: cfm-seriation [OPTION...]
@@ -127,26 +121,32 @@ Ordering...
 100% [====================================================================================================]
 </pre>
 
-h2. Further Information
+## Further Information
 
 
-* "Optimization and Analysis of Seriation Algorithm for Ordering Protein Networks":/redmine/documents/44. This paper describes the optimizations implemented in this package.
-* Felipe's Master Thesis "Otimização e análise de algoritmos de ordenamento de redes proteicas":/redmine/documents/45. Full description of the optimizations implemented in this package (in Portuguese).
+* [Optimization and Analysis of Seriation Algorithm for Ordering Protein Networks](ieeexplore.ieee.org/document/7033586/). This paper describes the optimizations implemented in this package.
 
-h2. License
 
-The source code is distributed under the terms of the GNU General Public License v3 ("GPL":http://www.gnu.org/copyleft/gpl.html).
+* Felipe's Master Thesis [Otimização e análise de algoritmos de ordenamento de redes proteicas](http://hdl.handle.net/10923/6663). Full description of the optimizations implemented in this package (in Portuguese).
 
-h2. How to Cite this Package
+## License
 
-If you are using this package on your research, please cite our papers:
-* "Optimization and Analysis of Seriation Algorithm for Ordering Protein Networks":/redmine/documents/44
+The source code is distributed under the terms of the GNU General Public License v3 [GPL](http://www.gnu.org/copyleft/gpl.html).
 
-h2. Where Seriation is Used
+## How to Cite this Package
+
+If you are using this package on your research, please cite our paper:
+* [Optimization and Analysis of Seriation Algorithm for Ordering Protein Networks](ieeexplore.ieee.org/document/7033586/)
+
+<pre>
+KUENTZER, Felipe A. et al. Optimization and analysis of seriation algorithm for ordering protein networks. In: Bioinformatics and Bioengineering (BIBE), 2014 IEEE International Conference on. IEEE, 2014. p. 231-237.
+</pre>
+
+## Where Seriation is Used
 
 If you are using the Seriation Package, please send an email to *alexandre.amory at pucrs.br* so we can update this list of users:
-* "Transcriptogrammer":http://lief.if.ufrgs.br/pub/biosoftwares/transcriptogramer/
+* [Transcriptogrammer](http://lief.if.ufrgs.br/pub/biosoftwares/transcriptogramer/)
 
-h2. Similar Packages
+## Similar Packages
 
-* "R Package seriation":http://www.jstatsoft.org/v25/i03, available at http://cran.r-project.org/web/packages/seriation/index.html.
+* (R Package seriation)[http://www.jstatsoft.org/v25/i03], available at http://cran.r-project.org/web/packages/seriation/index.html.

@@ -50,7 +50,7 @@ The next image represents the Homo sapiens network **'seriated'**.
 ![final](final.png)
 
 
-## Download and Compilation
+## Download and Instalation
 
 The Seriation Package is developed in C and tested on Ubuntu 14.04.
 * Download the [package](https://github.com/amamory/seriation/releases/latest) .
@@ -71,6 +71,15 @@ The Seriation Package is developed in C and tested on Ubuntu 14.04.
 /usr/share/cfm-seriation/data/            Biological input networks
 /usr/share/cfm-seriation/src/             Source code in C
 </pre>
+
+
+## Download and Compilation
+
+> sudo apt-get install git
+> git clone https://github.com/amamory/seriation.git
+> cd seriation
+> gcc cfm-seriation.c -lm -lpthread -lrt -o cfm-seriation
+
 
 ## How to Use
 

@@ -163,7 +163,7 @@ The results are save in a different directory for each execution.
 ## Further Information
 
 
-* [Optimization and Analysis of Seriation Algorithm for Ordering Protein Networks](ieeexplore.ieee.org/document/7033586/). This paper describes the optimizations implemented in this package.
+* [Optimization and Analysis of Seriation Algorithm for Ordering Protein Networks](http://ieeexplore.ieee.org/document/7033586/). This paper describes the optimizations implemented in this package.
 
 
 * Felipe's Master Thesis [Otimização e análise de algoritmos de ordenamento de redes proteicas](http://hdl.handle.net/10923/6663). Full description of the optimizations implemented in this package (in Portuguese).
@@ -175,7 +175,7 @@ The source code is distributed under the terms of the GNU General Public License
 ## How to Cite this Package
 
 If you are using this package on your research, please cite our paper:
-* [Optimization and Analysis of Seriation Algorithm for Ordering Protein Networks](ieeexplore.ieee.org/document/7033586/)
+* [Optimization and Analysis of Seriation Algorithm for Ordering Protein Networks](http://ieeexplore.ieee.org/document/7033586/)
 
 <pre>
 KUENTZER, Felipe A. et al. Optimization and analysis of seriation algorithm for ordering protein networks. 

@@ -8,6 +8,5 @@ before_install:
 - sudo apt-get update -qq
 - sudo apt-get install -qq gcc
 - gcc cfm-seriation.c -lm -lpthread -lrt -o cfm-seriation
-
-install:
-- 
+- wget https://raw.githubusercontent.com/amamory/seriation/master/data/Escherichia_coli.dat
+- ./cfm-seriation f=Escherichia_coli.dat

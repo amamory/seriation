@@ -53,14 +53,15 @@ The next image represents the Homo sapiens network **'seriated'**.
 ## Download and Compilation
 
 The Seriation Package is developed in C and tested on Ubuntu 14.04.
-* Download the package ("amd64":/redmine/attachments/download/360/cfm-seriation_1.0-1_amd64.deb) or ("i386":/redmine/attachments/download/361/cfm-seriation_1.0-1_i386.deb).
+* Download the [package](https://github.com/amamory/seriation/releases/latest) .
 * Is recommended to update your packages before the instalation:
-> * sudo apt-get install update
+> sudo apt-get install update
 * To install, you can double-click it or execute:
-> * sudo dpkg -i cfm-seriation_1.0-1_amd64.deb
-> * In case of missing dependencies, try: sudo apt-get install -f
+> sudo dpkg -i cfm-seriation_1.0-1_amd64.deb
+* In case of missing dependencies, try: 
+> sudo apt-get install -f
 * To unistall:
-> * sudo dpkg -r cfm-seriation
+> sudo dpkg -r cfm-seriation
 
 * this distribution has the following files
 

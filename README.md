@@ -78,8 +78,11 @@ The Seriation Package is developed in C and tested on Ubuntu 14.04.
 ## Download and Compilation
 
 > sudo apt-get install git
+
 > git clone https://github.com/amamory/seriation.git
+
 > cd seriation
+
 > gcc cfm-seriation.c -lm -lpthread -lrt -o cfm-seriation
 
 

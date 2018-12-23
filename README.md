@@ -2,6 +2,8 @@
 This software is an efficient implementation of the [Seriation](http://www.jstatsoft.org/v25/i03) problem which 'finds a suitable linear order for a set of objects'. It has been used to order a network of proteins such that 'related' nodes are closer in the other.
 
 [![Build Status](https://travis-ci.org/amamory/seriation.svg?branch=master)](https://travis-ci.org/amamory/seriation)
+[![DOI](https://zenodo.org/badge/92440644.svg)](https://zenodo.org/badge/latestdoi/92440644)
+
 
 ## Authors
 

@@ -10,7 +10,7 @@ This software is an efficient implementation of the [Seriation](http://www.jstat
 The Seriation Package was developed by [Felipe Kuentzer](http://lattes.cnpq.br/1979213773480902), in collaboration with 
 Douglas G. Ávila, Alexandre Pereira, Gabriel Perrone, Samoel da Silva, [Alexandre Amory](http://lattes.cnpq.br/2609000874577720), and [Rita de Almeida](http://lattes.cnpq.br/4672766298301524).
 
-**Contact information**: Alexandre Amory (*alexandre.amory at pucrs.br*)
+**Contact information**: Alexandre Amory (*amamory @ gmail com*)
 
 ## Inputs
 
